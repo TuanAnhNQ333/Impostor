@@ -13,7 +13,7 @@
 
   <PropertyGroup>
     <AssemblyName>Impostor.Server</AssemblyName>
-    <AssemblyTitle>Impostor.Server</AssemblyTitle>
+    <AssemblyTitle>Impostor.Server</AssemblyTitle> 
     <Product>Impostor.Server</Product>
     <Copyright>Copyright © AeonLucid 2020</Copyright>
   </PropertyGroup>
