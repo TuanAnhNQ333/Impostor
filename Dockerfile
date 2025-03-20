@@ -7,7 +7,7 @@ ARG TARGETARCH
 ARG VERSIONSUFFIX="docker"
 
 WORKDIR /source
-
+  
 # Copy csproj and restore.
 COPY src/Impostor.Server/Impostor.Server.csproj ./src/Impostor.Server/Impostor.Server.csproj
 COPY src/Impostor.Api.Innersloth.Generator/Impostor.Api.Innersloth.Generator.csproj ./src/Impostor.Api.Innersloth.Generator/Impostor.Api.Innersloth.Generator.csproj
