@@ -4,6 +4,6 @@
 .vs
 .vscode
 **/.git
-**/.idea
+**/.idea   
 **/bin
 **/obj
