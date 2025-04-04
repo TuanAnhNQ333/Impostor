@@ -77,7 +77,7 @@ private void ImpostorPublish(string name, string project, string runtime, bool i
     
     if (BuildSystem.GitHubActions.IsRunningOnGitHubActions) {
         BuildSystem.GitHubActions.Commands.UploadArtifact(projBuildDir, projBuildName);
-    }
+    } 
 }
 
 private void ImpostorPublishNF(string name, string project) {
