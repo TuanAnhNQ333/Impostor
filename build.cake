@@ -4,7 +4,7 @@
     
 var workflow = BuildSystem.GitHubActions.Environment.Workflow;    
 var buildId = workflow.RunNumber; 
-var tag = workflow.RefType == GitHubActionsRefType.Tag ? workflow.RefName : null; 
+var tag = workflow.RefType == GitHubActionsRefType.Tag ? workflow.RefName : null;  
 
 var workflow = BuildSystem.GitHubActions.Environment.Workflow;    
 var buildId = workflow.RunNumber;
