@@ -8,7 +8,7 @@ var tag = workflow.RefType == GitHubActionsRefType.Tag ? workflow.RefName : null
 
 var workflow = BuildSystem.GitHubActions.Environment.Workflow;    
 var buildId = workflow.RunNumber;
-var tag = workflow.RefType == GitHubActionsRefType.Tag ? workflow.RefName : null; 
+var tag = workflow.RefType == GitHubActionsRefType.Tag ? workflow.RefName : null;   
 
 
 var buildVersion = FindRegexMatchGroupInFile("./src/Directory.Build.props", @"\<VersionPrefix\>(.*?)\<\/VersionPrefix\>", 1, System.Text.RegularExpressions.RegexOptions.None).Value;
