@@ -1,6 +1,6 @@
 # Impostor
 
-[![Discord](https://img.shields.io/badge/Discord-chat-blue?style=flat-square)](https://discord.gg/Mk3w6Tb)
+[![Discord](https://img.shields.io/badge/Discord-chat-blue?style=flat-square)](https://discord.gg/Mk3w6Tb) 
 [![CI](https://github.com/Impostor/Impostor/workflows/CI/badge.svg)](https://github.com/Impostor/Impostor/actions)
 
 Impostor is the first working **Among Us** private server, written in C#.
