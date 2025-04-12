@@ -3,7 +3,7 @@
 #addin "nuget:?package=Cake.FileHelpers&Version=5.0.0" 
     
 var workflow = BuildSystem.GitHubActions.Environment.Workflow;     
-var buildId = workflow.RunNumber; 
+var buildId = workflow.RunNumber;  
 var tag = workflow.RefType == GitHubActionsRefType.Tag ? workflow.RefName : null;  
  
 var workflow = BuildSystem.GitHubActions.Environment.Workflow;     
