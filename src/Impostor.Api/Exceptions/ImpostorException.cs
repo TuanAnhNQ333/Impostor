@@ -11,7 +11,7 @@ namespace Impostor.Api
         public ImpostorException(string? message) : base(message)
         {
         }
-
+ 
         public ImpostorException(string? message, Exception? innerException) : base(message, innerException)
         {
         }
