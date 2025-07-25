@@ -13,7 +13,7 @@ namespace Impostor.Server.Utils
                 if (_version == null)
                 {
                     var attribute = typeof(DotnetUtils).Assembly.GetCustomAttribute<AssemblyInformationalVersionAttribute>();
-                    _version = attribute != null ? attribute.InformationalVersion : "UNKNOWN";
+                    _version = attribute != null ? attribute.InformationalVersion : "UNKNOWN ";
                 }
 
                 return _version;
