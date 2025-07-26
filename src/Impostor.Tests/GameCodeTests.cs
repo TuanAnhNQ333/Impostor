@@ -13,7 +13,7 @@ namespace Impostor.Tests
 
             Assert.Equal(code, GameCodeParser.IntToGameName(codeInt));
             Assert.Equal(codeInt, GameCodeParser.GameNameToInt(code));
-        }
+        } 
 
         [Fact]
         public void CodeV2()
