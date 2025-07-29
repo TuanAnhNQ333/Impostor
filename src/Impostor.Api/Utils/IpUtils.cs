@@ -12,7 +12,7 @@ namespace Impostor.Api.Utils
             if (!IPAddress.TryParse(ip, out var ipAddress))
             {
                 // Attempt to resolve DNS.
-                try
+                try 
                 {
                     var hostAddresses = Dns.GetHostAddresses(ip);
                     if (hostAddresses.Length == 0)
