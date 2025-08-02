@@ -8,7 +8,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.ObjectPool;
 
 namespace Impostor.Benchmarks.Tests
-{
+{ 
     public class MessageReaderBenchmark
     {
         private byte[] _data;
